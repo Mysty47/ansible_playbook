@@ -12,4 +12,15 @@
 Използвай следната команда, за да стартираш Ansible playbook:
 
 ```bash
-ansible-playbook -i hosts.ini playbook.yml --ask-become-pass
+ansible-playbook -i hosts.ini playbook.yml
+
+```
+
+Проверяване дали nginx е изтеглен
+
+```bash
+nginx -v
+```
+
+http://localhost
+
