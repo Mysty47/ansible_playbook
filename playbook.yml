@@ -1,6 +1,7 @@
 ---
 - name: Install nginx locally
   hosts: local
+  become: true
   tasks:
     - name: Install nginx
       apt:
